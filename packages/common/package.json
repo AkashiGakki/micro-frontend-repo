@@ -18,5 +18,14 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@iconify-json/carbon": "^1.1.6",
+    "@types/node": "^18.0.3",
+    "eslint": "^8.19.0",
+    "jsdom": "^20.0.0",
+    "pnpm": "^7.5.0",
+    "vitest": "^0.17.0"
   }
 }
