@@ -7,6 +7,7 @@ const handleEmit = (ev?: any) => {
 </script>
 
 <template>
+  app-vue
   <TestEmit foo="bar" @change="handleEmit" />
 </template>
 
