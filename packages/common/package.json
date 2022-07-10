@@ -1,23 +1,12 @@
 {
-  "name": "common",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "akashi <akashi_sai@163.com>",
-  "license": "ISC",
-  "main": "lib/common.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
-  },
+  "name": "@akashi/common",
+  "private": true,
+  "version": "0.0.1",
+  "main": "./src/main.ts",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
@@ -26,6 +15,8 @@
     "eslint": "^8.19.0",
     "jsdom": "^20.0.0",
     "pnpm": "^7.5.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
     "vitest": "^0.17.0"
   }
 }

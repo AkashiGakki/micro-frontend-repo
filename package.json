@@ -1,13 +1,8 @@
 {
   "name": "root",
   "private": true,
+  "packageManager": "pnpm@7.4.0",
   "workspaces": [
     "packages/*"
-  ],
-  "scripts": {
-    "dev": "dev"
-  },
-  "devDependencies": {
-    "lerna": "^5.1.6"
-  }
+  ]
 }

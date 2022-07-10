@@ -1,13 +1,16 @@
 {
-  "name": "app-vue",
+  "name": "@akashi/app-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "./src/lib/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@akashi/common": "0.0.1",
+    "@akashi/hooks": "workspace:0.0.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {

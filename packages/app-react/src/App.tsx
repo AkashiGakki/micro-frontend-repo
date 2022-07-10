@@ -1,14 +1,13 @@
-import { useState } from 'react';
-import './App.css';
+import './App.css'
+import Observer from './components/Observer'
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <header className="App-header">app-react</header>
+      <Observer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

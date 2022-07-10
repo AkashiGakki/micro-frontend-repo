@@ -1,6 +1,6 @@
-# lerna-repo
+# micro-frontend-repo
 
-🌏 Opinionated qiankun Starter Template with Lerna
+🌏 Opinionated qiankun Starter Template
 
 ## License
 
